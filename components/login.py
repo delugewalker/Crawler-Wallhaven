@@ -16,8 +16,8 @@ def login(args, session, response, headers):
     post_url = 'https://wallhaven.cc/auth/login'
     data = {
         '_token': token,
-        'username': 'FloodWalker',
-        'password': 'YuHong19970304'
+        'username': '',
+        'password': ''
     }
 
     response = session.post(url=post_url, data=data, headers=headers)
